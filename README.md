@@ -2,10 +2,10 @@
 텐서플로우로 생성한 한글 학습 모델을 가지고 ios 로 실행하는 앱
 현재 작동하지만
 한글 학습에 대한 오버피팅을 제한하는 부분이 없이 학습하여 결과가 올바르게 나오지 않음
-![숫자](https://imgur.com/a/XfZDqV1)
+![숫자](https://imgur.com/a/XfZDqV1.png)
 
 
-![한글](https://imgur.com/a/XJV48oQ)
+![한글](https://imgur.com/a/XJV48oQ.png)
 
 
 
