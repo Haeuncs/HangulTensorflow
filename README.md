@@ -3,7 +3,7 @@
 현재 작동하지만
 한글 학습에 대한 오버피팅을 제한하는 부분이 없이 학습하여 결과가 올바르게 나오지 않음
 
-[한글](https://i.imgur.com/k8re76j.png)
+![한글](https://i.imgur.com/k8re76j.png)
 
 
 
