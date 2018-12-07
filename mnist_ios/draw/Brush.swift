@@ -44,7 +44,7 @@ public class Brush {
     // MARK: - Static brushes
     
     public static var `default`: Brush {
-        return Brush(color: .white, width: 25, opacity: 1)
+        return Brush(color: .white, width: 17, opacity: 1)
     }
 
     public static var thin: Brush {

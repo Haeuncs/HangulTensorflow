@@ -63,6 +63,10 @@ class ViewController: UIViewController, UINavigationControllerDelegate,SwiftyDra
         setUpLocalModel()
         drawView = SwiftyDrawView(frame: self.imageOrView.bounds)
         drawView.delegate = self
+        // 항상 width 와 height가 동일한 크기이기를 보장
+        let width = imageOrView.frame.width
+        imageOrView.frame.size.height = width
+        
         self.imageOrView.addSubview(drawView)
         
         
@@ -210,10 +214,6 @@ class ViewController: UIViewController, UINavigationControllerDelegate,SwiftyDra
         case 1:
             print("Quantized")
             return ModelInterpreterConstants.quantizedModelFilename
-            
-        case 2:
-            print("invalid")
-            return ModelInterpreterConstants.invalidModelFilename
         default:
             fatalError("Unsupported model.")
         }
