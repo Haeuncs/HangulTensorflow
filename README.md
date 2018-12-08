@@ -1,20 +1,50 @@
-# HangulTensorflow
-텐서플로우로 생성한 한글 학습 모델을 가지고 ios 로 실행하는 앱
-현재 작동하지만
-한글 학습에 대한 오버피팅을 제한하는 부분이 없이 학습하여 결과가 올바르게 나오지 않음
-
-![한글](https://i.imgur.com/k8re76j.png)
+<h1 align="center">Welcome to HangulTensorflow 👋</h1>
+<p>
+</p>
 
 
 
-엄청난 도움을 준 firebase
+> CNN 으로 한글 학습한 Model을 실행하는 iOS 앱
 
-tflite를 읽어 실행 시키는 예제도 제공한다!
-말 그대로 quick start 할 수 있다.
 
-https://github.com/firebase/quickstart-ios
 
-한글 쓸 수 있는 view 부분은
-https://github.com/Awalz/SwiftyDraw
-를 참고하여 작성하였음
+## What is it?
 
+Python 의 tensorflow로 한글 데이터를 CNN 방식으로 학습하여 생성된 모델을 tflite 으로 변환하여 로컬에 저장
+
+로컬의 모델을 읽어 결과값을 유저에게 보여준다.
+
+
+
+## 실행결과
+
+
+
+<img src="image/IMG_0317.PNG" width="300" />
+
+<img src="image/IMG_0330.PNG" width="300" />
+
+
+
+## Reference
+
+[firebase-quickstart-ios](https://github.com/firebase/quickstart-ios)
+
+[drawView](https://github.com/Awalz/SwiftyDraw)
+
+
+
+## Author
+
+👤 **이하은**
+
+* Github: [@Haeuncs](https://github.com/Haeuncs)
+
+
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
